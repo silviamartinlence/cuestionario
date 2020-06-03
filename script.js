@@ -3,8 +3,8 @@ var link = document.getElementById('linkCuestionario');
 
 // Create url array
 var urls = [
-    'https://www.google.com/',
-    'https://www.facebook.com/'
+    'https://forms.gle/eLmWVDVB4ZegHjd19',
+    'https://forms.gle/fk6j7D4KRCAGsvJm7'
 ];
 
 // Get random url from array
