@@ -3,12 +3,12 @@ var link = document.getElementById('linkCuestionario')
 
 // Create url array
 var urls = [
-  'https://forms.gle/eLmWVDVB4ZegHjd19', // 40% chance to select
-  'https://forms.gle/fk6j7D4KRCAGsvJm7', // 60% chance to select
+  'https://forms.gle/eLmWVDVB4ZegHjd19', // 50% chance to select
+  'https://forms.gle/fk6j7D4KRCAGsvJm7' // 50% chance to select
 ]
 
 //Chances of being selected
-var chances = [30, 70]
+var chances = [50, 50]
 
 // Get random url from array
 var sum = chances.reduce((acc, el) => acc + el, 0)
