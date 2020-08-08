@@ -8,7 +8,7 @@ var urls = [
 ]
 
 //Chances of being selected
-var chances = [50, 50]
+var chances = [60, 40]
 
 // Get random url from array
 var sum = chances.reduce((acc, el) => acc + el, 0)
